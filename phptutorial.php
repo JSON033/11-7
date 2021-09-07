@@ -5,21 +5,21 @@ define('NAME', 'Jason')    ;
 // variables start with $ and can only start with letter or underscore
 
 
-$loser = 'Jason';
+$coder = 'Jason';
 $kos = 'jason';
 
 // we can join/concatenate strings with the . operator
-// echo $loser . $kos;
-// or echo ' hello ' . $loser;
+// echo $coder . $kos;
+// or echo ' hello ' . $coder;
 
 //echo 'hello ';
 
-// with double quotes we can just input variables ie : echo "hello $loser";
+// with double quotes we can just input variables ie : echo "hello $coder";
 // it is called variable interpolation
 
 // escape character for php is a backslash \
 
-// searching a variable ie echo $loser[2];
+// searching a variable ie echo $coder[2];
 // strlen() find the string length
 // strtoupper() turns the string to upper case, strtolower() does the opposire
 // str_replace(x,y,z) swithces x with y from z  
@@ -33,7 +33,7 @@ $kos = 'jason';
 // we can alsk use array_push(x,y) x is the array y is the value
 
 // associative arrays(key and value pairs)
-// $jasonarr = ['loser' => 'jason' , 'chad' => 'andy']
+// $jasonarr = ['coder' => 'jason' , 'chad' => 'andy']
 
 
 //$errors = array('email'=>'', 'name'=>'' , 'company' =>'');
@@ -167,7 +167,7 @@ session_start();
 
     <h1>  <?php echo 'User Profile Page'; ?> </h1>
     <div>
-        <?php echo $loser; ?>
+        <?php echo $coder; ?>
         <?php echo $NAME; ?>
     </div>
 
